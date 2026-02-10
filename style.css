@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-image: url('preview.jpg');
+     background-size: cover;
+}
+
+.heading1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: eague Gothic, Plus Jakarta Sans, MS Gothic, sans-serif;
+    font-weight: 900;
+   
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+ul a:hover {
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+   
+}
