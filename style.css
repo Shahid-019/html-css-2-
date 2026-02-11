@@ -9,7 +9,8 @@
 }
 
 .heading1 {
-    font-size: 50px;
+    color:  rgb(175, 174, 174);
+    font-size: 90px;
     text-align: center;
     font-family: eague Gothic, Plus Jakarta Sans, MS Gothic, sans-serif;
     font-weight: 900;
@@ -31,9 +32,35 @@ ul a {
     padding: 20px;
 }
 ul a:hover {
-    background-color: white;
     color: rgb(162, 7, 7);
-    border-radius: 10px;
-    transition: 0s ease-in-out;
+    border : 2px solid grey;
+    transition: all 0.3s ease-in-out;
    
+}
+.p1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+.disc {
+    
+    line-height: 40px;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+.img1 {
+    /* background-size: cover;
+    width: 800px;
+    height: 400px;
+   margin-top: 20px;
+   margin-left: 350px; */
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 800px;
+   height: 400px;
+  
 }
