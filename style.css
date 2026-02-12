@@ -5,7 +5,8 @@
     font-family: 'Times New Roman', Times, serif;
     color: white;
     background-image: url('preview.jpg');
-     background-size: cover;
+    background-size: cover;
+  
 }
 
 .heading1 {
@@ -78,6 +79,22 @@ ul a:hover {
     
     line-height: 40px;
     font-size: 18px;
-  
-   
+  }
+  .ken { 
+         display: flex; 
+         justify-content: center;
+         align-self: center;
+        font-size: 55px;
+        font-family: sans-serif;
+        color: rgb(175, 174, 174); 
+        margin-top: 50px;
+        font-weight: 400; 
+    }
+
+
+  .img2 { display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: 20px; 
+
 }
